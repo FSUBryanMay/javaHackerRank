@@ -5,6 +5,8 @@ public class IfElse{
         Scanner console = new Scanner(System.in);
         int n = console.nextInt();
 
+        console.close();
+
         if((n % 2 == 1) || ((n % 2 == 0) && ((n >= 6) && (n <= 20)))){
             System.out.println("Weird");
         }
